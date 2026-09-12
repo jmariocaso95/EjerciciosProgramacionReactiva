@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/testdb
+    username: postgres
+    password: admin
+  sql:
+    init:
+      mode: always
+server:
+  port: 8081
